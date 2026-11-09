@@ -8,6 +8,7 @@ button.addEventListener('click', () => {
     const num = inputNumber.value
     const first = currency.value
     const second = currency2.value
+    
     if (first === "RUB" && second === "KZT") {
         result.innerHTML = Number(num) / 0.2 + currency2.value
     }
@@ -21,12 +22,12 @@ button.addEventListener('click', () => {
         result.innerHTML = Number(num) * 90 + currency2.value
     }
     if (first === "EUR" && second === "RUB") {
-        result.innet = Number(num) * 100 + currency2.value
+        result.innetHTML = Number(num) * 100 + currency2.value
     }
     if (first === "KZT" && second === "RUB") {
         result.innerHTML = Number(num) / 5 + currency2.value
     }
-    
+
 });
 
  
